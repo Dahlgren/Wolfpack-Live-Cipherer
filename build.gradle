@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+    id 'edu.sc.seis.launch4j' version '2.4.4'
+}
+
+version 'v0.3'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+launch4j {
+    mainClassName = 'se.olofsson.wolfpack.livecipherer.Main'
+    icon = "${projectDir}/Elegantthemes-Beautiful-Flat-One-Color-Submarine.ico"
+}
