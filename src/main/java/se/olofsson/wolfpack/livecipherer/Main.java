@@ -8,7 +8,7 @@ import javax.swing.*;
  */
 public class Main
 {
-    public static final String CURRENT_VERSION = "v0.2.1";
+    public static final String CURRENT_VERSION = "v0.3";    // TODO: Set this to build.gradle->version in pre compile.
 
     public static void main(String[] args)
     {
